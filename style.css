@@ -1,1 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
 
+/* the main container */
+#mainContainer{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* the elements inside the mainContainer */
+.subContainer{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* the two small working elements */
+.elems{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+#getBtn{
+    display: inline-block;
+}
+
+#colorInput{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 100px;
+    width: 100px;
+    border: none;
+}
